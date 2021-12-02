@@ -1,5 +1,6 @@
 Quora_Question_Pairs/check/
-Quora_Question_Pairs/data/*.csv
+Quora_Question_Pairs/data/*.txt
+Quora_Question_Pairs/data/*all.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
