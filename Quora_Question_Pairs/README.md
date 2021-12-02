@@ -50,6 +50,6 @@ We construct a simple LSTM model without any further parameters adjustments as b
 <h2 id='submission'>Submission Requirements</h2>
 You need to submit:
 
-1.    Your saved model after fine-tune.
-2.    All of your python files used.
-3.    A report describing the methods and models you used, the training procedure, and their final performances.
+1.    Your **saved model** after fine-tune.
+2.    **All** of your python files used.
+3.    **A report** describing the methods and models you used, the training procedure, and their final performances.
