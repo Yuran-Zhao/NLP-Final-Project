@@ -31,7 +31,25 @@ Due to we have no access to the official test file provided by Kaggle, we random
 
 
 <h2 id='start'>Getting Started</h2>
+Different from the OPPO dataset used in the class, the questions in this project have not been desensitized. So at the very first beginning, you need consider how to tokenize the text.
 
+Luckily, [transformers](https://github.com/huggingface/transformers) also provides tokenizers of pre-trained language models. The specific description of usage can be found in the correspongding documents, e.g. the usage of BertTokenizer can be found [here](https://huggingface.co/transformers/model_doc/bert.html#berttokenizer).
+
+After that, all you need to do is mimicking the procedure introduced in the class. Maybe sometimes you need write your own dataset for convenience, under which circumstance you will find this [article](https://huggingface.co/transformers/custom_datasets.html) is useful.
+
+You can attempt to pre-train the Google BERT by designing a masked language model task just as what we did in the class as well. Considering that HuggingFace provides an array of pre-trained language models, you can have a try with other models and compare the performance between them and BERT. 
+
+It is worth noting that F1 score is taken to evaluate the performance of the model.
+
+We construct a simple LSTM model without any further parameters adjustments as baseline. Its performance on the `test.txt` is:
+| Model | F1 Score |
+| :---: | :------: |
+| LSTM  |          |
 
 
 <h2 id='submission'>Submission Requirements</h2>
+You need to submit:
+
+1.    Your saved model after fine-tune.
+2.    All of your python files used.
+3.    A report describing the methods and models you used, the training procedure, and their final performances.
