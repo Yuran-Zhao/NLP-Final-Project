@@ -35,11 +35,11 @@ Different from the OPPO dataset used in the class, the questions in this project
 
 Luckily, [transformers](https://github.com/huggingface/transformers) also provides tokenizers of pre-trained language models. The specific description of usage can be found in the correspongding documents, e.g. the usage of BertTokenizer can be found [here](https://huggingface.co/transformers/model_doc/bert.html#berttokenizer).
 
-After that, all you need to do is mimicking the procedure introduced in the class. Maybe sometimes you need write your own dataset for convenience, under which circumstance you will find this [article](https://huggingface.co/transformers/custom_datasets.html) is useful.
+After that, all you need is mimicking the procedure introduced in the class. Maybe sometimes you need write your own dataset for convenience, under which circumstance you will find this [article](https://huggingface.co/transformers/custom_datasets.html) is useful.
 
-You can attempt to pre-train the Google BERT by designing a masked language model task just as what we did in the class as well. Considering that HuggingFace provides an array of pre-trained language models, you can have a try with other models and compare the performance between them and BERT. 
+You can attempt to pre-train the Google BERT by designing a masked language model task just as what we did in the class as well. Considering that HuggingFace provides an array of pre-trained language models, it is welcome to have a try with other models and compare the performance between them and BERT. 
 
-It is worth noting that F1 score is taken to evaluate the performance of the model.
+It is worth noting that we will choose the F1 score to evaluate the performance of the model.
 
 We construct a simple LSTM model without any further parameters adjustments as baseline. Its performance on the `test.txt` is:
 | Model | F1 Score |

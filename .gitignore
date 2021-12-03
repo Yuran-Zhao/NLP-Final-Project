@@ -1,6 +1,8 @@
 Quora_Question_Pairs/check/
 Quora_Question_Pairs/data/*.txt
 Quora_Question_Pairs/data/*all.csv
+Quora_Question_Pairs/data/en_tokenizer
+Quora_Question_Pairs/model/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
