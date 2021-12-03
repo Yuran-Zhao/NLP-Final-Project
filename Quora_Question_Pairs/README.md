@@ -6,7 +6,7 @@ Quora is a question-and-answer platform where question are created, answered, ed
 
 Considering the huge traffic to the website every month, there are a number of simialr questions. The goal of this project is to construct a model to judge whether two questions share the same meaning or not. You are excepted to tackle this problem by using what you've learned in the class, i.e., **the pre-trained language models in NLP**, including BERT, RoBERTa, to name but a few.
 
-The details of dataset is shown in [Dataset](#dataset). We will intorduce the basic procedure for constructing a model in [Getting Started](#start). The submission requirements will be discussed in [Submission](#submission)
+The details of dataset is shown in [Dataset](#dataset). We will intorduce the basic procedure for constructing a model in [Getting Started](#start). The submission requirements will be discussed in [Submission Requirements](#submission)
 
 <h2 id='dataset'>Dataset</h2>
 Each line in the dataset responds to an example, which contains 3 parts separated by `\t`:
@@ -37,9 +37,9 @@ Luckily, [transformers](https://github.com/huggingface/transformers) also provid
 
 After that, all you need is mimicking the procedure introduced in the class. Maybe sometimes you need write your own dataset for convenience, under which circumstance you will find this [article](https://huggingface.co/transformers/custom_datasets.html) is useful.
 
-You can attempt to pre-train the Google BERT by designing a masked language model task just as what we did in the class as well. Considering that HuggingFace provides an array of pre-trained language models, it is welcome to have a try with other models and compare the performance between them and BERT. 
+You can attempt to pre-train the Google BERT by designing a masked language model task just as what we did in the class as well. Considering that HuggingFace provides [an array of pre-trained language models](https://huggingface.co/models), it is welcome to have a try with other models and compare the performance between them and BERT. 
 
-It is worth noting that we will choose the F1 score to evaluate the performance of the model.
+It is worth noting that we will choose the F1 score to evaluate the performance of the model. There is no doubt that a higher F1 score is better. Therefore, you are encouraged to enhance the performance of the model as you can.
 
 In order to help you know better about your model's performance, We construct a simple 3 layer Bi-LSTM model without any further parameters adjustments as a weak baseline. After 20 epoch it can achieve:
 |       Model       |  acc   | precision | recall |   F1   |
@@ -50,6 +50,6 @@ In order to help you know better about your model's performance, We construct a 
 <h2 id='submission'>Submission Requirements</h2>
 You need to submit:
 
-1.    Your **saved model** after fine-tune.
-2.    **All** of your python files used.
-3.    **A report** describing the methods and models you used, the training procedure, and their final performances.
+1.    **The best-performed model you saved** after fine-tuning.
+2.    **All** of your python files and scripts used.
+3.    **A report** describing the methods and models your team adopted, the training procedure, and their final performances.
