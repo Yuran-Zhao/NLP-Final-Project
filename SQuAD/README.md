@@ -4,7 +4,7 @@ This project originated from the default final project of Stanford CS 224N. This
 ## Modification
 It is worth noting that the `environment.yml` in the original repository used `pytorch 1.0.0`, which is out-dated. This code works well with `pytorch 1.7.0` after examination.
 
-NOTE: [Line 102](https://github.com/minggg/squad/blob/3b6aa9ca5653993f0d1a49e2660c7aa6117a3d9e/layers.py#L102) in `layer.py` should be revised as:
+NOTE: If you run the code with GPU, [Line 102](https://github.com/minggg/squad/blob/3b6aa9ca5653993f0d1a49e2660c7aa6117a3d9e/layers.py#L102) in `layer.py` should be revised as:
 ```python
 x = pack_padded_sequence(x, lengths.cpu(), batch_first=True)
 ```
