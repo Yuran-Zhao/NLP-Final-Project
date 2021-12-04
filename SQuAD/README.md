@@ -19,7 +19,7 @@ Bisides, **NOT ALL** Package in the `environment.yml` is necessary. Specifically
 -    numpy
 -    spacy == 2.0.16
      
-     If you install a newly released spaCy (e.g. 3.2), you may need to modify >the corresponding lines accroding to its [official documents](https://>spacy.io/usage/models).
+     If you install a newly released spaCy (e.g. 3.2), you may need to modify the corresponding lines accroding to its [official documents](https://spacy.io/usage/models).
 -    urllib3
 -    tqdm
 -    pytorch

@@ -42,9 +42,9 @@ You can attempt to pre-train the Google BERT by designing a masked language mode
 It is worth noting that we will choose the F1 score to evaluate the performance of the model. There is no doubt that a higher F1 score is better. Therefore, you are encouraged to enhance the performance of the model as you can.
 
 In order to help you know better about your model's performance, We construct a simple 3-layers Bi-LSTM model without any further parameters adjustments as a weak baseline. After 50 epoch it can achieve:
-|       Model       |  acc  | precision | recall |  F1   |
-| :---------------: | :---: | :-------: | :----: | :---: |
-| Bi-LSTM (3 layer) | 74.57 |   62.97   | 74.18  | 68.12 |
+|       Model        |  acc  | precision | recall |  F1   |
+| :----------------: | :---: | :-------: | :----: | :---: |
+| Bi-LSTM (3-layers) | 74.57 |   62.97   | 74.18  | 68.12 |
 
 
 <h2 id='submission'>Submission Requirements</h2>
