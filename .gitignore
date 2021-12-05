@@ -4,6 +4,7 @@ Quora_Question_Pairs/data/*all.csv
 Quora_Question_Pairs/data/en_tokenizer
 Quora_Question_Pairs/model/
 SQuAD/squad
+SQuAD/SQuAD2.0.pdf
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
